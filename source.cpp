@@ -403,7 +403,7 @@ void handleBlockPermutation(bool encrypt) {
     }
 
     std::string text;
-    if (encrypt) {
+    if (!encrypt) {
         std::cout << "Введите текст для шифрования: ";
     }
     else {
