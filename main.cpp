@@ -40,8 +40,8 @@ int main() {
             case 4: validateCurrentKey(); break;
             case 5: handleSimplePermutation(true); break;
             case 6: handleSimplePermutation(false); break;
-            case 7: handleBlockPermutation(true); break;
-            case 8: handleBlockPermutation(false); break;
+            case 7: handleBlockPermutation(false); break;
+            case 8: handleBlockPermutation(true); break;
             case 0: std::cout << "Выход из программы...\n"; break;
         }
     } while (choice != 0);
